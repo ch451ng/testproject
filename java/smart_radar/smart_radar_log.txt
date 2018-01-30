@@ -1,0 +1,930 @@
+Time 2017/12/10 21:49:45 - Object tracked at angle 95 distance 0,00
+
+Time 2017/12/10 21:49:47 - Object tracked at angle 98 distance 0,00
+
+Time 2017/12/10 21:49:51 - Object tracked at angle 106 distance 0,02
+
+Time 2017/12/10 21:49:55 - Object tracked at angle 112 distance 0,00
+
+Time 2017/12/10 21:49:55 - Object detected at angle 113
+
+Time 2017/12/10 21:49:56 - Object tracked at angle 113 distance 0,05
+
+Time 2017/12/10 21:49:56 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:49:56 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:49:56 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:49:56 - Object tracked at angle 114 distance 0,05
+
+Time 2017/12/10 21:49:56 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:49:57 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:49:57 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:49:57 - Object tracked at angle 114 distance 0,00
+
+Time 2017/12/10 21:49:57 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:49:57 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:49:57 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:49:58 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:49:58 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:49:58 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:49:58 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:49:58 - Object tracked at angle 114 distance 0,03
+
+Time 2017/12/10 21:49:58 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:49:59 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:49:59 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:49:59 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:49:59 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:49:59 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:49:59 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:49:59 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:00 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:00 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:00 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:00 - Object tracked at angle 114 distance 0,03
+
+Time 2017/12/10 21:50:00 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:00 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:01 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:01 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:01 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:01 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:01 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:01 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:02 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:02 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:02 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:02 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:02 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:02 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:02 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:03 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:03 - Object tracked at angle 114 distance 0,03
+
+Time 2017/12/10 21:50:03 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:03 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:03 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:03 - Object tracked at angle 114 distance 0,01
+
+Time 2017/12/10 21:50:04 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:04 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:04 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:04 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:04 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:04 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:05 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:05 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:05 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:05 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:05 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:05 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:05 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:06 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:06 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:06 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:06 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:06 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:06 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:07 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:07 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:07 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:07 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:07 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:07 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:08 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:08 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:08 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:08 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:08 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:08 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:08 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:09 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:09 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:09 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:09 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:09 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:09 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:10 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:10 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:10 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:10 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:10 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:10 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:10 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:11 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:11 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:11 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:11 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:11 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:11 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:12 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:12 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:12 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:12 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:12 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:12 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:13 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:13 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:13 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:13 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:13 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:13 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:13 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:14 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:14 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:14 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:14 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:14 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:14 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:15 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:15 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:15 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:15 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:15 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:15 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:16 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:16 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:16 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:16 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:16 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:16 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:17 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:17 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:18 - Object tracked at angle 114 distance 0,00
+
+Time 2017/12/10 21:50:18 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:18 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:18 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:18 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:18 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:19 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:19 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:19 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:19 - Object tracked at angle 114 distance 0,03
+
+Time 2017/12/10 21:50:19 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:19 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:20 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:20 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:20 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:20 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:20 - Object tracked at angle 114 distance 0,00
+
+Time 2017/12/10 21:50:20 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:21 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:21 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:21 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:21 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:21 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:21 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:21 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:22 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:22 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:22 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:22 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:22 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:22 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:23 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:23 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:23 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:23 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:23 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:23 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:24 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:24 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:24 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:24 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:24 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:24 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:24 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:25 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:25 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:25 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:25 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:25 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:25 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:26 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:26 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:26 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:26 - Object tracked at angle 114 distance 0,03
+
+Time 2017/12/10 21:50:26 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:26 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:26 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:27 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:27 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:27 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:27 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:27 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:27 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:28 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:28 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:28 - Object tracked at angle 114 distance 0,03
+
+Time 2017/12/10 21:50:28 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:28 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:28 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:29 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:29 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:29 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:29 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:29 - Object tracked at angle 114 distance 0,04
+
+Time 2017/12/10 21:50:32 - Object tracked at angle 115 distance 0,00
+
+Time 2017/12/10 21:50:33 - Object tracked at angle 115 distance 0,00
+
+Time 2017/12/10 21:50:33 - Object tracked at angle 116 distance 0,00
+
+Time 2017/12/10 21:50:33 - Object tracked at angle 116 distance 0,00
+
+Time 2017/12/10 21:50:34 - Object tracked at angle 118 distance 0,00
+
+Time 2017/12/10 21:50:35 - Object tracked at angle 118 distance 0,02
+
+Time 2017/12/10 21:50:44 - Object tracked at angle 135 distance 0,00
+
+Time 2017/12/10 21:50:49 - Object tracked at angle 144 distance 0,00
+
+Time 2017/12/10 21:50:50 - Object detected at angle 144
+
+Time 2017/12/10 21:50:50 - Object detected at angle 145
+
+Time 2017/12/10 21:50:50 - Object detected at angle 145
+
+Time 2017/12/10 21:50:50 - Object detected at angle 146
+
+Time 2017/12/10 21:50:50 - Object detected at angle 146
+
+Time 2017/12/10 21:50:51 - Object detected at angle 146
+
+Time 2017/12/10 21:50:51 - Object detected at angle 146
+
+Time 2017/12/10 21:50:51 - Object detected at angle 147
+
+Time 2017/12/10 21:50:51 - Object detected at angle 147
+
+Time 2017/12/10 21:50:51 - Object detected at angle 147
+
+Time 2017/12/10 21:50:51 - Object detected at angle 148
+
+Time 2017/12/10 21:50:52 - Object detected at angle 148
+
+Time 2017/12/10 21:50:52 - Object detected at angle 148
+
+Time 2017/12/10 21:50:52 - Object detected at angle 149
+
+Time 2017/12/10 21:50:52 - Object detected at angle 149
+
+Time 2017/12/10 21:50:52 - Object detected at angle 149
+
+Time 2017/12/10 21:50:52 - Object detected at angle 150
+
+Time 2017/12/10 21:50:53 - Object detected at angle 150
+
+Time 2017/12/10 21:50:53 - Object detected at angle 150
+
+Time 2017/12/10 21:50:53 - Object detected at angle 151
+
+Time 2017/12/10 21:50:53 - Object detected at angle 151
+
+Time 2017/12/10 21:50:53 - Object detected at angle 151
+
+Time 2017/12/10 21:50:54 - Object detected at angle 152
+
+Time 2017/12/10 21:50:54 - Object detected at angle 152
+
+Time 2017/12/10 21:50:54 - Object detected at angle 153
+
+Time 2017/12/10 21:50:54 - Object detected at angle 153
+
+Time 2017/12/10 21:50:54 - Object detected at angle 153
+
+Time 2017/12/10 21:50:54 - Object detected at angle 154
+
+Time 2017/12/10 21:50:55 - Object detected at angle 154
+
+Time 2017/12/10 21:50:55 - Object detected at angle 154
+
+Time 2017/12/10 21:50:55 - Object detected at angle 155
+
+Time 2017/12/10 21:50:55 - Object detected at angle 155
+
+Time 2017/12/10 21:50:55 - Object detected at angle 155
+
+Time 2017/12/10 21:50:55 - Object detected at angle 156
+
+Time 2017/12/10 21:50:56 - Object detected at angle 156
+
+Time 2017/12/10 21:50:56 - Object detected at angle 157
+
+Time 2017/12/10 21:50:56 - Object detected at angle 157
+
+Time 2017/12/10 21:50:56 - Object detected at angle 157
+
+Time 2017/12/10 21:50:56 - Object detected at angle 157
+
+Time 2017/12/10 21:50:57 - Object detected at angle 158
+
+Time 2017/12/10 21:50:57 - Object detected at angle 158
+
+Time 2017/12/10 21:50:57 - Object detected at angle 158
+
+Time 2017/12/10 21:50:57 - Object detected at angle 159
+
+Time 2017/12/10 21:50:57 - Object detected at angle 159
+
+Time 2017/12/10 21:50:57 - Object detected at angle 159
+
+Time 2017/12/10 21:50:58 - Object detected at angle 160
+
+Time 2017/12/10 21:50:58 - Object detected at angle 160
+
+Time 2017/12/10 21:50:58 - Object detected at angle 160
+
+Time 2017/12/10 21:50:58 - Object detected at angle 161
+
+Time 2017/12/10 21:50:58 - Object detected at angle 161
+
+Time 2017/12/10 21:50:58 - Object detected at angle 161
+
+Time 2017/12/10 21:50:59 - Object detected at angle 162
+
+Time 2017/12/10 21:50:59 - Object detected at angle 162
+
+Time 2017/12/10 21:50:59 - Object detected at angle 162
+
+Time 2017/12/10 21:50:59 - Object detected at angle 163
+
+Time 2017/12/10 21:50:59 - Object detected at angle 163
+
+Time 2017/12/10 21:50:59 - Object detected at angle 163
+
+Time 2017/12/10 21:51:00 - Object detected at angle 164
+
+Time 2017/12/10 21:51:00 - Object detected at angle 164
+
+Time 2017/12/10 21:51:00 - Object detected at angle 164
+
+Time 2017/12/10 21:51:00 - Object detected at angle 164
+
+Time 2017/12/10 21:51:00 - Object detected at angle 165
+
+Time 2017/12/10 21:51:00 - Object detected at angle 165
+
+Time 2017/12/10 21:51:01 - Object detected at angle 165
+
+Time 2017/12/10 21:51:01 - Object detected at angle 166
+
+Time 2017/12/10 21:51:01 - Object detected at angle 166
+
+Time 2017/12/10 21:51:01 - Object detected at angle 167
+
+Time 2017/12/10 21:51:01 - Object detected at angle 167
+
+Time 2017/12/10 21:51:02 - Object detected at angle 167
+
+Time 2017/12/10 21:51:02 - Object detected at angle 167
+
+Time 2017/12/10 21:51:02 - Object detected at angle 168
+
+Time 2017/12/10 21:51:02 - Object detected at angle 168
+
+Time 2017/12/10 21:51:02 - Object detected at angle 169
+
+Time 2017/12/10 21:51:02 - Object detected at angle 169
+
+Time 2017/12/10 21:51:03 - Object detected at angle 169
+
+Time 2017/12/10 21:51:03 - Object detected at angle 169
+
+Time 2017/12/10 21:51:03 - Object detected at angle 170
+
+Time 2017/12/10 21:51:03 - Object detected at angle 170
+
+Time 2017/12/10 21:51:03 - Object detected at angle 170
+
+Time 2017/12/10 21:51:03 - Object detected at angle 171
+
+Time 2017/12/10 21:51:04 - Object detected at angle 171
+
+Time 2017/12/10 21:51:04 - Object detected at angle 171
+
+Time 2017/12/10 21:51:04 - Object detected at angle 172
+
+Time 2017/12/10 21:51:04 - Object detected at angle 172
+
+Time 2017/12/10 21:51:04 - Object detected at angle 172
+
+Time 2017/12/10 21:51:04 - Object detected at angle 172
+
+Time 2017/12/10 21:51:04 - Object detected at angle 173
+
+Time 2017/12/10 21:51:05 - Object detected at angle 173
+
+Time 2017/12/10 21:51:05 - Object detected at angle 173
+
+Time 2017/12/10 21:51:05 - Object detected at angle 174
+
+Time 2017/12/10 21:51:05 - Object detected at angle 174
+
+Time 2017/12/10 21:51:05 - Object detected at angle 174
+
+Time 2017/12/10 21:51:05 - Object detected at angle 175
+
+Time 2017/12/10 21:51:07 - Object detected at angle 178
+
+Time 2017/12/10 21:51:08 - Object detected at angle 179
+
+Time 2017/12/10 21:51:08 - Object detected at angle 179
+
+Time 2017/12/10 21:51:08 - Object detected at angle 179
+
+Time 2017/12/10 21:51:08 - Object detected at angle 180
+
+Time 2017/12/10 21:51:08 - Object detected at angle 180
+
+Time 2017/12/10 21:51:08 - Object detected at angle 180
+
+Time 2017/12/10 21:51:09 - Object detected at angle 180
+
+Time 2017/12/10 21:51:09 - Object detected at angle 179
+
+Time 2017/12/10 21:51:09 - Object detected at angle 179
+
+Time 2017/12/10 21:51:09 - Object detected at angle 178
+
+Time 2017/12/10 21:51:09 - Object detected at angle 178
+
+Time 2017/12/10 21:51:09 - Object detected at angle 178
+
+Time 2017/12/10 21:51:10 - Object detected at angle 178
+
+Time 2017/12/10 21:51:10 - Object detected at angle 177
+
+Time 2017/12/10 21:51:10 - Object detected at angle 177
+
+Time 2017/12/10 21:51:10 - Object detected at angle 177
+
+Time 2017/12/10 21:51:10 - Object detected at angle 176
+
+Time 2017/12/10 21:51:10 - Object detected at angle 176
+
+Time 2017/12/10 21:51:11 - Object detected at angle 176
+
+Time 2017/12/10 21:51:11 - Object detected at angle 175
+
+Time 2017/12/10 21:51:11 - Object detected at angle 175
+
+Time 2017/12/10 21:51:11 - Object detected at angle 175
+
+Time 2017/12/10 21:51:11 - Object detected at angle 174
+
+Time 2017/12/10 21:51:11 - Object detected at angle 174
+
+Time 2017/12/10 21:51:12 - Object detected at angle 174
+
+Time 2017/12/10 21:51:12 - Object detected at angle 173
+
+Time 2017/12/10 21:51:12 - Object detected at angle 173
+
+Time 2017/12/10 21:51:12 - Object detected at angle 173
+
+Time 2017/12/10 21:51:12 - Object detected at angle 172
+
+Time 2017/12/10 21:51:12 - Object detected at angle 172
+
+Time 2017/12/10 21:51:13 - Object detected at angle 172
+
+Time 2017/12/10 21:51:13 - Object detected at angle 172
+
+Time 2017/12/10 21:51:13 - Object detected at angle 171
+
+Time 2017/12/10 21:51:13 - Object detected at angle 171
+
+Time 2017/12/10 21:51:13 - Object detected at angle 171
+
+Time 2017/12/10 21:51:13 - Object detected at angle 170
+
+Time 2017/12/10 21:51:14 - Object detected at angle 170
+
+Time 2017/12/10 21:51:14 - Object detected at angle 170
+
+Time 2017/12/10 21:51:14 - Object detected at angle 169
+
+Time 2017/12/10 21:51:14 - Object detected at angle 169
+
+Time 2017/12/10 21:51:14 - Object detected at angle 169
+
+Time 2017/12/10 21:51:14 - Object detected at angle 169
+
+Time 2017/12/10 21:51:14 - Object detected at angle 168
+
+Time 2017/12/10 21:51:15 - Object detected at angle 168
+
+Time 2017/12/10 21:51:15 - Object detected at angle 168
+
+Time 2017/12/10 21:51:15 - Object detected at angle 167
+
+Time 2017/12/10 21:51:15 - Object detected at angle 167
+
+Time 2017/12/10 21:51:15 - Object detected at angle 167
+
+Time 2017/12/10 21:51:15 - Object detected at angle 166
+
+Time 2017/12/10 21:51:16 - Object detected at angle 166
+
+Time 2017/12/10 21:51:16 - Object detected at angle 166
+
+Time 2017/12/10 21:51:16 - Object detected at angle 166
+
+Time 2017/12/10 21:51:16 - Object detected at angle 165
+
+Time 2017/12/10 21:51:16 - Object detected at angle 165
+
+Time 2017/12/10 21:51:16 - Object detected at angle 165
+
+Time 2017/12/10 21:51:17 - Object detected at angle 164
+
+Time 2017/12/10 21:51:17 - Object detected at angle 164
+
+Time 2017/12/10 21:51:17 - Object detected at angle 164
+
+Time 2017/12/10 21:51:17 - Object detected at angle 163
+
+Time 2017/12/10 21:55:36 - Object tracked at angle 104 distance 0,05
+
+Time 2017/12/10 21:55:37 - Object tracked at angle 106 distance 0,00
+
+Time 2017/12/10 21:55:38 - Object tracked at angle 107 distance 0,00
+
+Time 2017/12/10 21:55:45 - Object detected at angle 121
+
+Time 2017/12/10 21:55:45 - Object detected at angle 122
+
+Time 2017/12/10 21:55:45 - Object detected at angle 122
+
+Time 2017/12/10 21:55:46 - Object detected at angle 122
+
+Time 2017/12/10 21:55:46 - Object detected at angle 123
+
+Time 2017/12/10 21:55:46 - Object detected at angle 124
+
+Time 2017/12/10 21:55:50 - Object detected at angle 131
+
+Time 2017/12/10 21:55:51 - Object detected at angle 132
+
+Time 2017/12/10 21:55:51 - Object detected at angle 132
+
+Time 2017/12/10 21:55:52 - Object detected at angle 134
+
+Time 2017/12/10 21:55:53 - Object detected at angle 137
+
+Time 2017/12/10 21:55:55 - Object detected at angle 140
+
+Time 2017/12/10 21:55:58 - Object detected at angle 145
+
+Time 2017/12/10 21:55:59 - Object tracked at angle 148 distance 0,04
+
+Time 2017/12/10 21:55:59 - Object tracked at angle 148 distance 0,03
+
+Time 2017/12/10 21:56:14 - Object tracked at angle 157 distance 0,00
+
+Time 2017/12/10 21:56:23 - Object tracked at angle 172 distance 0,00
+
+Time 2017/12/10 21:56:23 - Object tracked at angle 172 distance 0,01
+
+Time 2017/12/10 21:56:24 - Object tracked at angle 173 distance 0,00
+
+Time 2017/12/10 21:56:32 - Object tracked at angle 171 distance 0,00
+
+Time 2017/12/10 21:56:33 - Object tracked at angle 171 distance 0,02
+
+Time 2017/12/10 21:57:12 - Object tracked at angle 101 distance 0,01
+
+Time 2017/12/10 21:57:14 - Object tracked at angle 97 distance 0,01
+
+Time 2017/12/10 21:57:17 - Object tracked at angle 92 distance 0,00
+
+Time 2017/12/10 21:57:18 - Object tracked at angle 91 distance 0,00
+
+Time 2017/12/10 21:57:18 - Object tracked at angle 90 distance 0,05
+
+Time 2017/12/10 21:57:19 - Object tracked at angle 89 distance 0,00
+
+Time 2017/12/10 21:57:20 - Object tracked at angle 87 distance 0,04
+
+Time 2017/12/10 21:57:20 - Object tracked at angle 87 distance 0,00
+
+Time 2017/12/10 21:57:26 - Object tracked at angle 77 distance 0,00
+
+Time 2017/12/10 21:59:32.361 - Object detected at angle 108
+
+Time 2017/12/10 21:59:32.520 - Object detected at angle 108
+
+Time 2017/12/10 21:59:32.781 - Object detected at angle 109
+
+Time 2017/12/10 21:59:32.936 - Object tracked at angle 109 distance 0,04
+
+Time 2017/12/10 21:59:36.512 - Object tracked at angle 109 distance 0,05
+
+Time 2017/12/10 21:59:43.947 - Object detected at angle 109
+
+Time 2017/12/10 21:59:44.102 - Object detected at angle 109
+
+Time 2017/12/10 21:59:44.262 - Object detected at angle 110
+
+Time 2017/12/10 21:59:44.524 - Object detected at angle 110
+
+Time 2017/12/10 21:59:44.680 - Object detected at angle 111
+
+Time 2017/12/10 21:59:44.839 - Object detected at angle 111
+
+Time 2017/12/10 21:59:44.995 - Object detected at angle 111
+
+Time 2017/12/10 21:59:45.364 - Object detected at angle 112
+
+Time 2017/12/10 21:59:45.522 - Object detected at angle 112
+
+Time 2017/12/10 21:59:45.680 - Object detected at angle 112
+
+Time 2017/12/10 21:59:45.838 - Object detected at angle 113
+
+Time 2017/12/10 21:59:46.940 - Object detected at angle 115
+
+Time 2017/12/10 21:59:48.832 - Object detected at angle 118
+
+Time 2017/12/10 21:59:48.989 - Object detected at angle 119
+
+Time 2017/12/10 21:59:49.148 - Object detected at angle 119
+
+Time 2017/12/10 21:59:50.095 - Object detected at angle 121
+
+Time 2017/12/10 21:59:50.512 - Object detected at angle 122
+
+Time 2017/12/10 21:59:50.828 - Object detected at angle 122
+
+Time 2017/12/10 21:59:50.987 - Object detected at angle 123
+
+Time 2017/12/10 21:59:51.144 - Object detected at angle 123
+
+Time 2017/12/10 21:59:52.933 - Object detected at angle 126
+
+Time 2017/12/10 21:59:53.088 - Object detected at angle 127
+
+Time 2017/12/10 21:59:53.296 - Object detected at angle 127
+
+Time 2017/12/10 21:59:53.457 - Object detected at angle 127
+
+Time 2017/12/10 21:59:53.666 - Object detected at angle 128
+
+Time 2017/12/10 21:59:53.826 - Object detected at angle 128
+
+Time 2017/12/10 21:59:56.345 - Object detected at angle 133
+
+Time 2017/12/10 21:59:58.028 - Object detected at angle 136
+
+Time 2017/12/10 22:00:00.653 - Object detected at angle 141
+
+Time 2017/12/10 22:00:00.813 - Object detected at angle 141
+
+Time 2017/12/10 22:00:00.968 - Object detected at angle 142
+
+Time 2017/12/10 22:00:01.230 - Object detected at angle 142
+
+Time 2017/12/10 22:00:01.390 - Object detected at angle 142
+
+Time 2017/12/10 22:00:01.547 - Object detected at angle 143
+
+Time 2017/12/10 22:00:01.705 - Object detected at angle 143
+
+Time 2017/12/10 22:00:01.862 - Object detected at angle 143
+
+Time 2017/12/10 22:00:02.021 - Object detected at angle 144
+
+Time 2017/12/10 22:00:03.020 - Object detected at angle 145
+
+Time 2017/12/10 22:00:03.175 - Object detected at angle 146
+
+Time 2017/12/10 22:00:04.069 - Object detected at angle 147
+
+Time 2017/12/10 22:00:04.229 - Object detected at angle 148
+
+Time 2017/12/10 22:00:04.384 - Object detected at angle 148
+
+Time 2017/12/10 22:00:04.543 - Object detected at angle 148
+
+Time 2017/12/10 22:00:04.701 - Object detected at angle 149
+
+Time 2017/12/10 22:00:07.432 - Object detected at angle 154
+
+Time 2017/12/10 22:00:08.010 - Object detected at angle 155
+
+Time 2017/12/10 22:00:11.318 - Object detected at angle 161
+
+Time 2017/12/10 22:00:11.479 - Object detected at angle 162
+
+Time 2017/12/10 22:00:14.472 - Object detected at angle 167
+
+Time 2017/12/10 22:00:14.632 - Object detected at angle 168
+
+Time 2017/12/10 22:00:25.252 - Object tracked at angle 172 distance 0,00
+
+Time 2017/12/10 22:00:25.752 - Object tracked at angle 172 distance 0,01
+
+Time 2017/12/10 22:00:26.353 - Object tracked at angle 171 distance 0,00
+
