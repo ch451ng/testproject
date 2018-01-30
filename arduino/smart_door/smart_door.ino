@@ -38,7 +38,7 @@ void setup()
 	t0->init(25);
 	sched.addTask(t0);
 
-	Task* t1 = new MessagingTaskBT(shared, msgService);
+	Task* t1 = new MessagingTaskBT(shared, msgServiceBT, msgService);
 	t1->init(25);
 	sched.addTask(t1);
 

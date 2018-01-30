@@ -24,12 +24,13 @@ private:
 
 	TempSensor* temp;
 	MsgService* msgService;
+	MsgServiceBT* msgServiceBT;
 	float lastTemp;
 	int lastInt;
 
 public:
 
-	UpdateRemoteTask(Shared* shared, TempSensor* temp1, MsgService* msgService);
+	UpdateRemoteTask(Shared* shared, TempSensor* temp1, MsgService* msgService,MsgServiceBT* msgServiceBT);
 	void init(int period);
 	void tick();
 };

@@ -9,11 +9,12 @@
 
 #include "UpdateRemoteTask.h"
 
-UpdateRemoteTask::UpdateRemoteTask(Shared* shared, TempSensor* temp1, MsgService* msgService){
+UpdateRemoteTask::UpdateRemoteTask(Shared* shared, TempSensor* temp1, MsgService* msgService,MsgServiceBT* msgServiceBT){
 	this->shared = shared;
 	//this->led = ld1;
 	this->temp = temp1;
 	this->msgService = msgService;
+	this->msgServiceBT = msgServiceBT;
 }
 
 void UpdateRemoteTask::init(int period){
@@ -27,7 +28,7 @@ void UpdateRemoteTask::tick() {
 	if (lastTemp != curTemp){
 		lastTemp = curTemp;
 		msgService->sendMsg("UT:" + String(lastTemp));
-		//msgServiceBT->sendMsg("UT:" + String(lastTemp));
+		msgServiceBT->sendMsg("UT:" + String(lastTemp));
 		shared->setTemp(lastTemp);
 	}
 
