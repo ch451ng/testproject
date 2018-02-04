@@ -55,7 +55,7 @@ void setup()
 	msgService->sendMsg("TEST");
 
 	Task* t2 = new UpdateRemoteTask(shared, temp, msgService, msgServiceBT);
-	t2->init(25);
+	t2->init(1000);
 	sched.addTask(t2);
 	msgService->sendMsg("TEST01");
 
