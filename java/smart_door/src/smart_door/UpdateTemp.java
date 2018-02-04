@@ -6,19 +6,19 @@ import java.util.Date;
 import seiot.modulo_lab_3_3.common.*;
 
 public class UpdateTemp implements Msg {
-	private double temp;
+	private int temp;
 	private Date date;
 
-	public UpdateTemp(double temp) {
+	public UpdateTemp(int temp) {
 		this.temp = temp;
 		this.date = new Date(); //Quando viene creato si inizializza la data/ora dell'evento 
 	}
 
-	public void setT(double temp) {
+	public void setT(int temp) {
 		this.temp = temp;
 	}
 
-	public double getT() {
+	public int getT() {
 		return this.temp;
 	}
 

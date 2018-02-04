@@ -1,11 +1,19 @@
 package smart_door;
 
 import java.io.BufferedWriter;
-import java.io.FileWriter;
+
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Formatter;
+
+import java.sql.DriverManager;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
 
 import seiot.modulo_lab_3_3.common.*;
 import seiot.modulo_lab_3_3.devices.*;
@@ -22,35 +30,55 @@ public class DBUpdater extends ReactiveAgent {
 	static final String USER = "username";
 	static final String PASS = "password";
 
+	private Connection con = null;
+	private Statement stmt = null;
+	private int rs = 0;
+
 	@Override
 	protected void processEvent(Event ev) {
-		Connection conn = null;
-		Statement stmt = null;
 
-		// STEP 2: Register JDBC driver
+		StringBuilder sbuf = new StringBuilder();
+		Formatter fmt = new Formatter(sbuf);
+		
+		System.out.println("DB --- UpdateTemp");
+		
+
 		try {
-			Class.forName("com.mysql.jdbc.Driver");
 
-			// STEP 3: Open a connection
-			System.out.println("Connecting to database...");
-			conn = DriverManager.getConnection(DB_URL, USER, PASS);
-
-			// STEP 4: Execute a query
-			System.out.println("Creating statement...");
-			stmt = conn.createStatement();
 			String sql = null;
-			if (ev instanceof UpdateTemp) {
-				sql = "UPDATE Registration " +
-						"SET age = 30 WHERE id in (100, 101)";
-			} else { 
-				if (ev instanceof UpdateInt) {
-					sql = "UPDATE Registration " +
-							"SET age = 30 WHERE id in (100, 101)";
+			if (ev instanceof MsgEvent) {
+				con = ConnectionManager.getConnection();
+				stmt = con.createStatement();
+				Msg msg = ((MsgEvent) ev).getMsg();
+				Date date = new Date();
+				java.text.SimpleDateFormat sdf = new java.text.SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+				String currentTime = sdf.format(date);
+				String insertTableSQL = "INSERT INTO dataLogger (valore, tipo, dtm) VALUES "
+						+ "(?,?,?)";
+				PreparedStatement preparedStatement = con.prepareStatement(insertTableSQL);
+				
+				int temp = ((UpdateTemp) msg).getT();
+				if (msg instanceof UpdateTemp) {
+					preparedStatement.setInt(1, temp);
+					preparedStatement.setString(2, "T");
+					preparedStatement.setTimestamp(3,  new java.sql.Timestamp(date.getTime()));
+					preparedStatement .executeUpdate();
+					//fmt.format("INSERT INTO dataLogger (valore, tipo, dtm) VALUES (%d,%s,%s)",temp,"T",currentTime);
+					//sql = sbuf.toString();
+					//rs = stmt.executeUpdate(sql);
+				} else { 
+					if (msg instanceof UpdateInt) {
+						
+						double lumen = ((UpdateInt) msg).getI();
+						//fmt.format("INSERT INTO dataLogger (valore, tipo, dtm) VALUES (%d,%s,%t)",lumen,"I",date);
+						//sql = sbuf.toString();
+						//rs = stmt.executeUpdate(sql);
+					}
 				}
+				
+				con.close();
+	
 			}
-
-			stmt.executeUpdate(sql);
-
 
 		} catch (Exception e) {
 			// TODO Auto-generated catch block

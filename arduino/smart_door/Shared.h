@@ -2,13 +2,14 @@
 #define __SHARED__
 
 #include "enumerati.h"
+#include "Arduino.h"
 
 class Shared {
 public:
 	Shared();
 	scanstatus getRStatus();
 	void setRStatus(scanstatus rStatus);
-	scanstatus getLoginStatus();
+	loginstatus getLoginStatus();
 	void setLoginStatus(loginstatus rStatus);
 	String getLoginMsg();
 	void setLoginMsg(String msg);

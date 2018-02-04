@@ -9,6 +9,8 @@
 #include "Costant.h"
 #include "enumerati.h"
 #include "SerialMessagingTask.h"
+#include "MsgService.h"
+#include "MessagingTaskBT.h"
 
 MessagingTaskBT::MessagingTaskBT(Shared* shared, MsgServiceBT* msgServiceBT, MsgService* msgService) {
 	this->shared = shared;

@@ -2,7 +2,6 @@ package smart_door;
 
 import seiot.modulo_lab_3_3.common.*;
 import seiot.modulo_lab_3_3.devices.*;
-//import seiot.modulo_lab_3_3.pingpong2.PingMsg;
 
 public class InputMsgReceiver extends ReactiveAgent {
 
@@ -11,18 +10,19 @@ public class InputMsgReceiver extends ReactiveAgent {
 
 	private DBUpdater databaseUpdater;
 	private LoginChecker loginChecker;
-	private RadarController controller;
+	
 	private Serial serialDevice;
-	private double dist;
-	private int ang;
+	private int temp;
+	private int lumen;
 	private Boolean showCounter = true; //Serve per stampare solo una volta i contatori degli oggetti
 	private int countD = 0; // Contatori utilizzati per filtrare eventi spuri
 	private int countT = 0;
 	private double currDist = 50;
 	private int currAng = 360;
 
-	public InputMsgReceiver(RadarController controller, Serial serialDevice) {
-		this.controller = controller;
+	public InputMsgReceiver(DBUpdater databaseUpdater, LoginChecker loginChecker, Serial serialDevice) {
+		this.databaseUpdater = databaseUpdater;
+		this.loginChecker = loginChecker;
 		this.serialDevice = serialDevice;
 	}
 
@@ -31,15 +31,21 @@ public class InputMsgReceiver extends ReactiveAgent {
 		while (true) {
 			try {
 				String msg = serialDevice.waitForMsg(); //Attesa di un evento messaggio sulla seriale
-				if (msg.startsWith("UT:")) { //Parsing del messaggio (estendere con regex)
+				if (msg.startsWith("UT:")) { //Update temperature
+					temp = Integer.parseInt(msg.replace("UT:", ""));
+					sendMsgTo(databaseUpdater, new UpdateTemp(temp));
+					System.out.println("UpdateTemp");
 				} else {
-					if (msg.startsWith("UI:")) {
-						
+					if (msg.startsWith("UI:")) { //Update Intensity
+						lumen = Integer.parseInt(msg.replace("UI:", ""));
+						sendMsgTo(databaseUpdater, new UpdateTemp(lumen));
+						System.out.println("UpdateInt");
+
 					} else {
-						if (msg.startsWith("LR:")) {
+						if (msg.startsWith("LR:")) { //Login Request
 							
 						} else {
-							if (msg.startsWith("TO:")) {
+							if (msg.startsWith("TO:")) { //Login Timeout
 								
 							}
 						}

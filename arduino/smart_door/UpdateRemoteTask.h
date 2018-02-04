@@ -14,6 +14,8 @@
 #include "Shared.h"
 
 #include "MsgService.h"
+#include "MsgServiceBT.h"
+#include "TempSensor.h"
 
 
 
@@ -25,7 +27,7 @@ private:
 	TempSensor* temp;
 	MsgService* msgService;
 	MsgServiceBT* msgServiceBT;
-	float lastTemp;
+	int lastTemp;
 	int lastInt;
 
 public:

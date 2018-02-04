@@ -13,7 +13,7 @@ Shared::Shared() {
 	login_status = loginstatus::IDLE;
 	login_msg = "";
 	ledInt = 0;
-	temp = -375;
+	temp = 0;
 }
 
 scanstatus Shared::getRStatus(){
@@ -24,7 +24,7 @@ void Shared::setRStatus(scanstatus rStatus){
 	this->received_status = rStatus;
 }
 
-scanstatus Shared::getLoginStatus(){
+loginstatus Shared::getLoginStatus(){
 	return this->login_status;
 }
 
@@ -38,4 +38,12 @@ String Shared::getLoginMsg(){
 
 void Shared::setLoginMsg(String msg){
 	this->login_msg = msg;
+}
+
+void Shared::setTemp(float temp){
+	this->temp = temp;
+}
+
+int Shared::getLedIntensity(){
+	return this->ledInt;
 }

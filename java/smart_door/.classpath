@@ -23,5 +23,10 @@
 			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="C:/Users/Luke/Dropbox/Progetti/Università/SistemiEmbededIOT/git/seiot1718/seiot1718/java/rxtx-2.2-dist/win-x64"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Luke/git/java/smart_door/src/smart_door/mysql-connector-java-5.1.45/mysql-connector-java-5.1.45-bin.jar" sourcepath="C:/Users/Luke/git/java/smart_door/src/smart_door/mysql-connector-java-5.1.45">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="C:/Users/Luke/git/java/smart_door/src/smart_door/mysql-connector-java-5.1.45"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

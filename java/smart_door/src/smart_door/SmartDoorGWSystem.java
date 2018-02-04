@@ -5,7 +5,7 @@ import seiot.modulo_lab_3_3.devices.*;
 import servers.*;
 
 
-public class SmartRadarSystem {
+public class SmartDoorGWSystem {
 	public static void main(String[] args) {
 		
 		
@@ -29,8 +29,10 @@ public class SmartRadarSystem {
 //		RadarController controller = new RadarController();
 //		controller.init(counters, ledA, ledB, ledC, startButton, stopButton, inputDev);
 //		controller.start();
-		
-		InputMsgReceiver rec = new InputMsgReceiver(controller,inputDev);
+		DBUpdater dbUpdater = new DBUpdater();
+		LoginChecker loginChecker = new LoginChecker();
+		dbUpdater.start();
+		InputMsgReceiver rec = new InputMsgReceiver(dbUpdater,loginChecker,inputDev);
 		rec.start();
 				
 	}

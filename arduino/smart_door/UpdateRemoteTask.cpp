@@ -9,6 +9,7 @@
 
 #include "UpdateRemoteTask.h"
 
+
 UpdateRemoteTask::UpdateRemoteTask(Shared* shared, TempSensor* temp1, MsgService* msgService,MsgServiceBT* msgServiceBT){
 	this->shared = shared;
 	//this->led = ld1;
@@ -24,7 +25,8 @@ void UpdateRemoteTask::init(int period){
 }
 
 void UpdateRemoteTask::tick() {
-	float curTemp = temp->readTemperature();
+
+	int curTemp = temp->readTemperature();
 	if (lastTemp != curTemp){
 		lastTemp = curTemp;
 		msgService->sendMsg("UT:" + String(lastTemp));
