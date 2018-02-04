@@ -32,9 +32,10 @@ public class InputMsgReceiver extends ReactiveAgent {
 			try {
 				String msg = serialDevice.waitForMsg(); //Attesa di un evento messaggio sulla seriale
 				if (msg.startsWith("UT:")) { //Update temperature
+					System.out.println("UpdateTemp " + msg);
 					temp = Integer.parseInt(msg.replace("UT:", ""));
 					sendMsgTo(databaseUpdater, new UpdateTemp(temp));
-					System.out.println("UpdateTemp");
+					
 				} else {
 					if (msg.startsWith("UI:")) { //Update Intensity
 						lumen = Integer.parseInt(msg.replace("UI:", ""));

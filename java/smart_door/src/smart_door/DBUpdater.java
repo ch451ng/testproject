@@ -39,7 +39,7 @@ public class DBUpdater extends ReactiveAgent {
 
 		StringBuilder sbuf = new StringBuilder();
 		Formatter fmt = new Formatter(sbuf);
-		
+		Date date = new Date();
 		System.out.println("DB --- UpdateTemp");
 		
 
@@ -50,9 +50,10 @@ public class DBUpdater extends ReactiveAgent {
 				con = ConnectionManager.getConnection();
 				stmt = con.createStatement();
 				Msg msg = ((MsgEvent) ev).getMsg();
-				Date date = new Date();
+				
 				java.text.SimpleDateFormat sdf = new java.text.SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 				String currentTime = sdf.format(date);
+				System.out.println(currentTime);
 				String insertTableSQL = "INSERT INTO dataLogger (valore, tipo, dtm) VALUES "
 						+ "(?,?,?)";
 				PreparedStatement preparedStatement = con.prepareStatement(insertTableSQL);
@@ -63,13 +64,11 @@ public class DBUpdater extends ReactiveAgent {
 					preparedStatement.setString(2, "T");
 					preparedStatement.setTimestamp(3,  new java.sql.Timestamp(date.getTime()));
 					preparedStatement .executeUpdate();
-					//fmt.format("INSERT INTO dataLogger (valore, tipo, dtm) VALUES (%d,%s,%s)",temp,"T",currentTime);
-					//sql = sbuf.toString();
-					//rs = stmt.executeUpdate(sql);
+					
 				} else { 
 					if (msg instanceof UpdateInt) {
 						
-						double lumen = ((UpdateInt) msg).getI();
+						int lumen = ((UpdateInt) msg).getI();
 						//fmt.format("INSERT INTO dataLogger (valore, tipo, dtm) VALUES (%d,%s,%t)",lumen,"I",date);
 						//sql = sbuf.toString();
 						//rs = stmt.executeUpdate(sql);
