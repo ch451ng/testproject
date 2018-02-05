@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Smart Car</string>
+
+    <string name="button_driving_mode_label">Driving</string>
+    <string name="button_parking_mode_label">Parking</string>
+    <string name="button_start_mode_label">Start</string>
+    <string name="button_stop_mode_label">Stop</string>
+    <string name="settings_label">Settings</string>
+    <string name="notifications_email_switch">Notifications by Email</string>
+    <string name="distance_label">Distance</string>
+    <string name="null_distance">--- cm</string>
+
+    <string name="defenseButtonTerminateLabel">Terminate</string>
+
+    <string name="contact_label">Warning - Contact Detected</string>
+
+    <string name="null_degrees">0°</string>
+</resources>
