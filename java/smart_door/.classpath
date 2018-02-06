@@ -18,14 +18,14 @@
 	<classpathentry kind="lib" path="lib/pi4j-service-javadoc.jar"/>
 	<classpathentry kind="lib" path="lib/pi4j-service-sources.jar"/>
 	<classpathentry kind="lib" path="lib/pi4j-service.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Luke/Dropbox/Progetti/Università/SistemiEmbededIOT/git/seiot1718/seiot1718/java/rxtx-2.2-dist/win-x64/RXTXcomm.jar">
+	<classpathentry kind="lib" path="mysql-connector-java-5.1.45/mysql-connector-java-5.1.45-bin.jar">
 		<attributes>
-			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="C:/Users/Luke/Dropbox/Progetti/Università/SistemiEmbededIOT/git/seiot1718/seiot1718/java/rxtx-2.2-dist/win-x64"/>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="smart_door/mysql-connector-java-5.1.45/src"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Luke/git/java/smart_door/src/smart_door/mysql-connector-java-5.1.45/mysql-connector-java-5.1.45-bin.jar" sourcepath="C:/Users/Luke/git/java/smart_door/src/smart_door/mysql-connector-java-5.1.45">
+	<classpathentry kind="lib" path="rxtx-2.2-dist/win-x64/RXTXcomm.jar">
 		<attributes>
-			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="C:/Users/Luke/git/java/smart_door/src/smart_door/mysql-connector-java-5.1.45"/>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="smart_door/rxtx-2.2-dist/win-x64"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="output" path="bin"/>
