@@ -48,11 +48,11 @@ void setup()
 	//t0->init(25);
 	//sched.addTask(t0);
 
-	//Task* t1 = new MessagingTaskBT(shared, msgServiceBT, msgService);
-	//t1->init(25);
-	//sched.addTask(t1);
+	Task* t1 = new MessagingTaskBT(shared, msgServiceBT, msgService);
+	t1->init(25);
+	sched.addTask(t1);
 
-	msgService->sendMsg("TEST");
+	msgService->sendMsg(shared->getLoginMsg());
 
 	Task* t2 = new UpdateRemoteTask(shared, temp, msgService, msgServiceBT);
 	t2->init(1000);

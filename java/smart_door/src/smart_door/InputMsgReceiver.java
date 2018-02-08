@@ -44,7 +44,7 @@ public class InputMsgReceiver extends ReactiveAgent {
 
 					} else {
 						if (msg.startsWith("LR:")) { //Login Request
-							
+							System.out.println("Login: " +msg);
 						} else {
 							if (msg.startsWith("TO:")) { //Login Timeout
 								

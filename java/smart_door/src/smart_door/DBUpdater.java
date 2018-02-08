@@ -72,7 +72,7 @@ public class DBUpdater extends ReactiveAgent {
 						//fmt.format("INSERT INTO dataLogger (valore, tipo, dtm) VALUES (%d,%s,%t)",lumen,"I",date);
 						//sql = sbuf.toString();
 						//rs = stmt.executeUpdate(sql);
-					}
+					} 
 				}
 				
 				con.close();

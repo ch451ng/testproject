@@ -31,6 +31,7 @@ void UpdateRemoteTask::tick() {
 		//msgServiceBT->sendMsg("UT:" + String(lastTemp));
 		shared->setTemp(lastTemp);
 	} else {
+		delay(500);
 		int meanTemp = (lastTemp + curTemp +  temp->readTemperature()) / 3;
 		if (lastTemp != meanTemp) {
 			lastTemp = meanTemp;
