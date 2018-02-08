@@ -32,6 +32,7 @@ void MessagingTaskBT::tick(){
 		if (content.startsWith("LR:")){
 			shared->setLoginStatus(loginstatus::REQUEST);
 			shared->setLoginMsg(content);
+			msgService->sendMsg(content);
 		}
 		//TEMP
 

@@ -3,10 +3,16 @@ package com.example.android.smart_door;
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.annotation.TargetApi;
+import android.app.AlertDialog;
+import android.bluetooth.BluetoothAdapter;
+import android.bluetooth.BluetoothDevice;
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Handler;
 import android.os.Message;
 import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.app.LoaderManager.LoaderCallbacks;
@@ -21,6 +27,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.provider.ContactsContract;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -30,10 +37,14 @@ import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import org.w3c.dom.Text;
 
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Set;
 
 import static android.Manifest.permission.READ_CONTACTS;
 
@@ -41,8 +52,15 @@ import static android.Manifest.permission.READ_CONTACTS;
  * A login screen that offers login via email/password.
  */
 public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<Cursor> {
+    private static final int REQUEST_ENABLE_BT = 1;
+    private static final int ACCESS_FINE_LOCATION_REQUEST = 2;
+
     private static UiHandler uiHandler;
 
+    private BluetoothDevice btTargetDevice;
+
+    private Button connectButton;
+    private TextView connectedText;
     /**
      * Id to identity READ_CONTACTS permission request.
      */
@@ -70,6 +88,27 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+
+        uiHandler = new UiHandler(this);
+
+        checkBluetoothPrerequisites();
+
+
+
+        connectedText = (TextView) findViewById(R.id.connection_text);
+        connectButton = (Button) findViewById(R.id.connect_btn);
+        connectButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(btTargetDevice != null && !BluetoothChannelManager.getInstance().isConnected()){
+                    BluetoothChannelManager.getInstance().setTargetDevice(btTargetDevice);
+                    new Thread(BluetoothChannelManager.getInstance()).start();
+                }
+            }
+        });
+
+
+
         // Set up the login form.
         mEmailView = (AutoCompleteTextView) findViewById(R.id.email);
         populateAutoComplete();
@@ -138,6 +177,14 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
             if (grantResults.length == 1 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                 populateAutoComplete();
             }
+        }
+
+        if (requestCode == ACCESS_FINE_LOCATION_REQUEST) {
+        if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+            Log.d(C.APP_TAG,"Location permission granted!");
+        } else {
+            Log.d(C.APP_TAG,"Location permission denied!");
+        }
         }
     }
 
@@ -371,7 +418,15 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
             String message = msg.obj.toString();
 
             if(message.equals(C.BT_CONNECTION_ACK)){
-                //context.get().drivingBtn.setEnabled(true);
+                context.get().connectButton.setEnabled(false);
+                context.get().connectedText.setVisibility(View.VISIBLE);
+            }
+
+            if (message.equals("BT_LOST")){
+
+                Toast.makeText(context.get(), "BT disconnect Service done", Toast.LENGTH_SHORT).show();
+                context.get().connectButton.setEnabled(true);
+                context.get().connectedText.setVisibility(View.GONE);
             }
 
                 /*if(message.equals(C.BT_MSG_CAR_COLLISION_DETECTED)){
@@ -394,5 +449,72 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
                 }*/
         }
     }
+
+    private void checkBluetoothPrerequisites(){
+        BluetoothAdapter btAdapter = BluetoothAdapter.getDefaultAdapter();
+
+        if(btAdapter != null){
+            //BT Available
+            if(btAdapter.isEnabled()){
+                //BT enabled
+                btTargetDevice = lookingForBtTargetDevice(C.BT_TARGET_DEVICE_NAME);
+
+                if(btTargetDevice == null){
+                    Log.d(C.APP_TAG,"Bluetooth target device [" + C.BT_TARGET_DEVICE_NAME + "] not found!");
+                    showInfoAlert("Bluetooth Error!", "Bluetooth target device [\" + BT_TARGET_DEVICE_NAME + \"] not found!\n\nGoing to shutdown...",
+                            new DialogInterface.OnClickListener(){
+                                @Override
+                                public void onClick(DialogInterface dialog, int which) {
+                                    dialog.dismiss();
+                                    LoginActivity.this.finish();
+                                }
+                            }
+                    );
+                }
+            } else {
+                //BT not enabled
+                startActivityForResult(new Intent(BluetoothAdapter.ACTION_REQUEST_ENABLE), REQUEST_ENABLE_BT);
+            }
+        } else {
+            //BT unavailable
+            Log.d(C.APP_TAG,"Bluetooth unavailable on this device!");
+            showInfoAlert("Bluetooth Error!", "Bluetooth unavailable on this device!\n\nGoing to shutdown...",
+                    new DialogInterface.OnClickListener(){
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            dialog.dismiss();
+                            LoginActivity.this.finish();
+                        }
+                    }
+            );
+        }
+    }
+
+    @Nullable
+    private BluetoothDevice lookingForBtTargetDevice(String name){
+        Set<BluetoothDevice> pairedList = BluetoothAdapter.getDefaultAdapter().getBondedDevices();
+        if (pairedList.size() > 0) {
+            for (BluetoothDevice device : pairedList) {
+                if (device.getName().equals(name)) {
+                    return device;
+                }
+            }
+        }
+
+        return null;
+    }
+
+    private void showInfoAlert(String title, String message, DialogInterface.OnClickListener action){
+        AlertDialog dialog = new AlertDialog.Builder(LoginActivity.this)
+                .setTitle(title)
+                .setMessage(message)
+                .setCancelable(false)
+                .setPositiveButton("OK", action)
+                .create();
+
+        dialog.show();
+    }
+
+
 }
 
